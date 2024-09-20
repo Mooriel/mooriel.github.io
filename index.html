@@ -1,59 +1,68 @@
-@ -1 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Login</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fafafa;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            width: 300px;
-            text-align: center;
-        }
-        .logo {
-            margin-bottom: 20px;
-        }
-        input[type="text"],
-        input[type="password"] {
-            width: calc(100% - 40px);
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: #3897f0;
-            color: #fff;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <title>Instagram login title 1</title>
 </head>
 <body>
-    <div class="container">
-        <img class="logo" src="instagram_logo.png" alt="Instagram Logo" width="100">
-        <form action="login.php" method="post">
-            <input type="text" name="username" placeholder="Username" required><br>
-            <input type="password" name="password" placeholder="Password" required><br>
-            <input type="submit" value="Login">
-        </form>
-    </div>
+    <main>
+        <!--Instagram- left img RESOLVED-->
+<img src="IG.jpeg" alt="" class="phoneimg"> 
+<div class="from-div">
+    <form>
+        <!--logo insta RESOLVED-->
+        <img src="instalogo.png" alt="logo" class="logoinstagram">
+        <input type="" class="input" placeholder="Phone number, username, or email" required>
+        <input type="password" class="input" placeholder="Password" required>
+        <!--Log in and log in with facebook lines NON RESOLVED ! ! !-->
+        <!--Font + size issue NON RESOLVED ! ! !-->
+        <button class="login-btn">Log In</button>
+        <p id="or">OR</p>
+        <a href="#" class="fb-login"><i class='bx bxl-facebook-square'></i>Log in with Facebook</a>
+        <!--Forgot password button?-->
+        <a href="#" class="forgot-pass">Forgot passwords?</a>
+        <!-- report content lines in instagram, FONT ISSUE ! ! !-->
+        <p class="report_content">You can also <a href="#" class="report_content">report content you believe is unlawful</a> in your country without logging in.</p>
+    </form>
+        <!--Sign up NOT RESOLVED ! ! !-->    
+        <div class="sign-up">
+            <p class="sign-up">Dont have an account? <a href="#" class="sign-up">Sign up</a></p>
+        </div>
+        <!--Get the app lines-->
+        <div class="Getapp">
+            <p.>Get the app.</p.>
+            <!--Ggstore + microsoft stores img:-->
+            <div class="stores">
+            <img src="playStore.png" alt="" class="ggplaystore">
+            <img src="getMicrosoft.png" alt="" class="microsoftstores">
+
+
+            </div>
+        </div>
+</div>
+    </main>     
 </body>
 </html>
+
+<!--DEV log:
+20/9: Raw code, undone with font/words size.
+Reminder: fonts, size, boxed letter, etc...
+        <main> = instagram logo img
+
+
+
+
+
+
+
+
+
+
+Sources:Pictures: https://github.com/jatin4rya/V8-Instagram-Login-Clone
+        Icons: https://boxicons.com/            
+        Syntaxes: https://www.w3schools.com/html/html_images.asp
+        Fonts: https://fonts.google.com/
+-->
