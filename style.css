@@ -1,20 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-*{
-    padding: 0;
+/* General Styles */
+* {
     margin: 0;
-    outline: 0;
-    text-decoration: none;
-}
-body{
-    background-color: #fff;
-    font-family: 'Roboto', sans-serif;
-}
-main{
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-box {
+    margin-right: 100px;
+  }
+
+  .image-box {
+    width: 350px;
+    height: auto;
+  }
+
+  /* Login Box */
+  .login-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo h1 {
+    font-family: 'Billabong', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form .divider {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
-    min-height: 100vh;
-    margin: auto;
-}
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .login-form .divider span {
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .login-form .divider span::before,
+  .login-form .divider span::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .login-form .fb-login {
+    color: #385185;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .login-form .forgot-password {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #00376b;
+  }
+  
+  .signup-box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .signup-box a {
+    color: #0095f6;
+    font-weight: bold;
+  }
+  .microsoft-box{
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+
+  .microsoft-box {
+    width: 30px;
+    height: 100px;
+    size: ;
+  }
