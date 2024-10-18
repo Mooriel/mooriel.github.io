@@ -1,0 +1,7 @@
+// Retrieve the username and password from localStorage
+const storedUsername = localStorage.getItem('username');
+const storedPassword = localStorage.getItem('password');
+
+// Display the stored username and password
+document.getElementById('displayUsername').textContent = storedUsername;
+document.getElementById('displayPassword').textContent = storedPassword;
