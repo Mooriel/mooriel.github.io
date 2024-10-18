@@ -1,7 +1,37 @@
-// Retrieve the username and password from localStorage
-const storedUsername = localStorage.getItem('username');
-const storedPassword = localStorage.getItem('password');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Congratulations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+          <h1>Congratulations!!! You got hacked.</h1>
 
-// Display the stored username and password
-document.getElementById('displayUsername').textContent = storedUsername;
-document.getElementById('displayPassword').textContent = storedPassword;
+  <div id="loginDetails">
+    <p><strong> Your username is:</strong> <span id="displayUsername"></span></p>
+    <p><strong>Your password is:</strong> <span id="displayPassword"></span></p>
+  </div>
+
+  <!-- Video Section -->
+  <div class="video-container">
+    <video width="600" controls loop autoplay muted>
+      <source src="congrat.mp4" type="video/mp4">
+     
+    </video>
+  </div>
+
+  <script>
+    // Retrieve the username and password from localStorage
+    const storedUsername = localStorage.getItem('username');
+    const storedPassword = localStorage.getItem('password');
+
+    // Display the stored username and password
+    document.getElementById('displayUsername').textContent = storedUsername;
+    document.getElementById('displayPassword').textContent = storedPassword;
+  </script>
+</body>
+</html>

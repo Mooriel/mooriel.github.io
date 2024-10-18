@@ -1,0 +1,109 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-box {
+    margin-right: 100px;
+  }
+
+  .image-box {
+    width: 350px;
+    height: auto;
+  }
+
+  /* Login Box */
+  .login-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo h1 {
+    font-family: 'Billabong', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .login-form .divider span {
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .login-form .divider span::before,
+  .login-form .divider span::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .login-form .fb-login {
+    color: #385185;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .login-form .forgot-password {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #00376b;
+  }
+  
+  .signup-box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .signup-box a {
+    color: #0095f6;
+    font-weight: bold;
+  }
+ 
